@@ -19,7 +19,7 @@ wss.on("connection", function connection(ws) {
 });
 
 app.get("/", (req, res) => {
-  res.send("WebSocket server is running 🚀");
+  res.send("WebSocket server is running");
 });
 
 const port = process.env.PORT || 3000;
